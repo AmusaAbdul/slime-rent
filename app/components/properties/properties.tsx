@@ -11,9 +11,11 @@ const Properties = () => {
         { id: 6, name: "Modern Apartment", location: "Lekki, Lagos", price: "$17000", bed: "3 beds", bath: "3 beds", upload: "posted 1 week ago", image: "/Images/Modern house 1.jpg" },
     ]
     return (
-        <div className="mt-10 p-4 italic text-blue-600">
-            <button className="text-blue-600 rounded-3xl h-12 w-35 border-4 border-solid border-blue-600 bg-white lg:w-45 lg:text-xl">Discover</button>
-            <h1 className="mt-2 text-base font-bold lg:text-xl ">FEATURED PROPERTIES</h1>
+        <div className="mt-10  italic text-blue-600">
+            <div className="p-4">
+                <button className="text-blue-600 rounded-3xl h-12 w-35 border-4 border-solid border-blue-600 bg-white lg:w-45 lg:text-xl">Discover</button>
+                <h1 className="mt-2 text-base font-bold lg:text-xl ">FEATURED PROPERTIES</h1>
+            </div>   
             <div className="mt-3 flex overflow-x-auto gap-4">
                 {Properties.map((property) => (
                     <div key={property.id} className="flex min-w-64 animate-scroll flex-col gap-4 text-white bg-blue-600 p-2">
@@ -26,7 +28,7 @@ const Properties = () => {
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="white"
-                                viewBox="0 0 24 24"
+                                viewBox="0 0 24 24" 
                                 width="20"
                                 height="20"
                             >

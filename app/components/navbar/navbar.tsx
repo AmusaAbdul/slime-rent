@@ -62,14 +62,14 @@ const Navbar = () => {
                     }}
                     className={`z-999 p-7 pt-10 text-base fixed top-0 right-0 h-full w-[80%] flex flex-col text-center gap-7 bg-blue-600 ${isMenuOpen ? "block" : "hidden"}`}
                 >
-                    <ul className="flex flex-col gap-4 cursor-pointer">
-                        <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="#home">Home</a></li>
-                        <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="#propertyListing">Property Listing</a></li>
-                        <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="">About Us</a></li>
-                        <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="#agents">Agents</a></li>
-                        <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="">Contact</a></li>
+                    <ul className="flex flex-col gap-4 cursor-pointer mt-5">
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="#home">Home</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="#propertyListing">Property Listing</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="">About Us</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="#agents">Agents</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="">Contact</a></li>
                     </ul>
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 mt-5">
                         <div className="bg-white hover:bg-amber-100 px-2 py-1 rounded font-bold cursor-pointer">
                             <h1 className="text-blue-600">Post a Property</h1>
                         </div>
@@ -80,11 +80,11 @@ const Navbar = () => {
                 </nav>
             <nav className="hidden lg:flex  lg:items-center lg:justify-between ">
                 <ul className="flex space-x-4 cursor-pointer">
-                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="#home">Home</a></li>
-                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="#propertyListing">Property Listing</a></li>
-                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="">About Us</a></li>
-                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="#agents">Agents</a></li>
-                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded"><a href="">Contact</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="#home">Home</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="#propertyListing">Property Listing</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="">About Us</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="#agents">Agents</a></li>
+                    <li className="hover:bg-white hover:text-blue-600 p-2 rounded shadow-amber-50 shadow-2xl"><a href="">Contact</a></li>
                 </ul>
             </nav>
             <div className="hidden lg:flex gap-4">
